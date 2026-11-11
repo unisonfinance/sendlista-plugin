@@ -14,5 +14,6 @@
     "transactional email",
     "deliverability",
     "dns"
-  ]
+  ],
+  "privacyPolicyUrl": "https://sendlista.com/privacy"
 }
