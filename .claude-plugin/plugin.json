@@ -15,5 +15,9 @@
     "deliverability",
     "dns"
   ],
-  "privacyPolicyUrl": "https://sendlista.com/privacy"
+  "privacyPolicyUrl": "https://sendlista.com/privacy",
+  "repository": "https://github.com/unisonfinance/sendlista-plugin",
+  "supportUrl": "https://sendlista.com/contact",
+  "documentationUrl": "https://sendlista.com/docs/ai-assistants",
+  "termsOfServiceUrl": "https://sendlista.com/terms"
 }
