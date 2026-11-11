@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sendlista",
+  "version": "1.0.0",
+  "description": "Send email from your own domain and see what happened to it, from a conversation. Connects your Sendlista account and teaches your assistant to send safely, connect a domain, check a list, and explain why an email didn't arrive.",
+  "author": {
+    "name": "Sendlista",
+    "url": "https://sendlista.com"
+  },
+  "homepage": "https://sendlista.com/docs/ai-assistants",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "transactional email",
+    "deliverability",
+    "dns"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sendlista",
+        "shortDescription": "Email from your own domain",
+        "longDescription": "Sendlista sends email for apps and businesses from their own domain: receipts, sign-in codes, password resets and newsletters. With this plugin your assistant can send an email or schedule one for later, look up what happened to an email, show your sending figures, walk you through connecting a domain, and check a list of addresses before you send to it. It always shows you what it is about to send and asks first. You need a Sendlista account with a connected domain. It cannot see billing, your team, your password or API keys, and it does not manage campaigns or audience lists.",
+        "developerName": "Sendlista",
+        "category": "Productivity",
+        "websiteURL": "https://sendlista.com",
+        "privacyPolicyURL": "https://sendlista.com/privacy",
+        "termsOfServiceURL": "https://sendlista.com/terms",
+        "defaultPrompt": [
+          "Is my domain ready to send email?",
+          "Why didn't my last email arrive?",
+          "Check this list of addresses before I send to it"
+        ],
+        "brandColor": "#0F6E56",
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}

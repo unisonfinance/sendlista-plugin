@@ -1,0 +1,18 @@
+{
+  "name": "sendlista",
+  "displayName": "Sendlista",
+  "version": "1.0.0",
+  "description": "Send email from your own domain and see what happened to it, from a conversation. Connects your Sendlista account and teaches your assistant to send safely, connect a domain, check a list, and explain why an email didn't arrive.",
+  "author": {
+    "name": "Sendlista",
+    "url": "https://sendlista.com"
+  },
+  "homepage": "https://sendlista.com/docs/ai-assistants",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "transactional email",
+    "deliverability",
+    "dns"
+  ]
+}
